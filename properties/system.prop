@@ -25,6 +25,16 @@ persist.vendor.wifi.multista=false
 # Disable Settings multi-STA feature flag
 persist.sys.fflag.override.settings_wifi_multista=false
 
+# # Mist OS Device Info
+ro.mist.display=1080 x 2400, 120 Hz
+ro.mist.battery=4500mAh
+ro.mist.soc=Snapdragon® 870
+ro.mist.camera=64MP + 8MP + 2MP
+ro.mist.front=20MP
+ro.mist.platform=SM8250-AC
+ro.mist.screen=6.67" AMOLED
+ro.mist.device.name=Poco F4
+
 # Display
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
